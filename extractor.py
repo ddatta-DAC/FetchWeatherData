@@ -22,8 +22,8 @@ key_contents = "2009-01-03_1"
 value_label = "data" 
 
 
-start_date = date(2002,6,1)
-end_date = date(2002,10,31)
+start_date = date(2002,1,1)
+end_date = date(2017,3,31)
 time_increment = timedelta(days=1)
 
 # Store data in data frame
@@ -70,6 +70,4 @@ df.to_csv(output_file)
 
 
 
-
-	  
 
